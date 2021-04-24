@@ -66,34 +66,35 @@ header {
 
 /* ------------container-ronaldo ------------------- */
 
-.container-ronaldo {
+.container-experience {
 
-    height:35em;
+    height:auto;
     width:100%;
     display: flex;
 }
 
 .picture-ronaldo {
 
-    width: 60%;
-    height: 100%;
+
+    height:auto;
+    width:60%;
     background: linear-gradient(
         270deg,
         #ffffff 5.16%,
         rgba(255, 255, 255, 0) 67.14%
       ),
       rgba(255, 255, 255, 0.5) url(./images/background_ronaldo.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top left;
     display: flex;
-    justify-content: center;
+    position: relative;
 }
 
 .info-ronaldo {
 
     display:flex;
-    width: 80%;
+    width:80%;
     height: 70%;
 }
 
@@ -101,6 +102,7 @@ header {
 
     width:80%;
     margin-top:3em;
+    height:auto;
 }
 
 .image-arsenal-chelsea {
@@ -119,7 +121,7 @@ header {
     bottom: 23%;
 }
 
-.container-experience {
+.content-experience {
 
     width:40%;
     padding: 120px 0 60px 0;
@@ -169,11 +171,12 @@ header {
 .container-interface {
 
     width: 100%;
-    height:45em;
+    min-height:45em;
     background-image: url(./images/background_interface.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+    background-position: center center;
 }
 
 .inner-interface {
@@ -186,12 +189,19 @@ header {
     width:40%;
 }
 
+.image-interface-for-phone,
+.image-yourteam-for-phone {
+
+    display:none;
+}
+
 /* --------------- Features ------------------- */
 
 .container-features {
 
     width:100%;
-    height:45em;
+    height:auto;
+    max-height:100em;
     background-image: url(./images/background_blue.png);
 }
 
@@ -239,7 +249,7 @@ header {
 .container-users {
 
     width:100%;
-    height:30em;
+    height:auto;
     background-color: #fff;
 }
 
@@ -263,7 +273,7 @@ header {
 .users-reviews {
 
     display:flex;
-    justify-content: space-around;
+    justify-content:space-around;
     margin-top:60px;
 }
 
@@ -323,22 +333,28 @@ header {
 
 .container-yourteam {
 
-    height: 29em;
+    height: auto;
     width: 100%;
-    display: flex;
+    background-color: #fff;
+    display:flex;
 }
 
 .picture-yourteam {
 
-    width: 60%;
-    height: 100%;
-    display: flex;
+    width:50%;
+    height:auto;
+    background-image: url(./images/background-yourteam.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display:flex;
+    position: relative;
 }
 
 .content-yourteam {
 
-    width:40%;
-    padding: 60px 0 60px 0;
+    width:50%;
+    padding:60px 0 60px 15px;
 }
 
 .yourteam-text {
@@ -384,14 +400,14 @@ header {
     justify-content: space-between;
 }
 
-.navigation-inner {
+.navigation-menu {
 
     width: 60%;
     display: flex;
     justify-content: space-around;
 }
 
-.navigation-inner a {
+.navigation-menu a {
 
     font-style: normal;
     font-weight: bold;
