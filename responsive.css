@@ -75,12 +75,12 @@
 
 @media (max-width:720px) {
 
-    .container-ronaldo {
+    .container-experience {
 
         flex-direction: column-reverse;
     }
 
-    .container-experience {
+    .content-experience {
 
         text-align: center;
         width: 100%;
