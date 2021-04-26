@@ -27,6 +27,58 @@
     }
 }
 
+@media (max-width:1000px) {
+
+    .info-ronaldo {
+
+        width:100%;
+    }
+}
+
+@media (max-width:1200px) {
+
+
+    .header-info {
+
+        background-color: #f4f6f979;
+        border-radius: 5%;
+        margin-bottom:1em;
+    }
+
+    .header-inner {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-logo {
+
+        text-align: center;
+    }
+
+    .header-tittle,
+    .header-text {
+
+        width:90%;
+        text-align: center;
+    }
+    .header-link-apple-google {
+
+        width: 30%;
+        display: flex;
+        justify-content: center;    
+    }
+
+    .header-link-apple-google a {
+
+        margin-right:2em;
+    }
+
+}
+
+
 /* --------------- Mobile version ----------- */
 
 /* ------------- header --------------- */
